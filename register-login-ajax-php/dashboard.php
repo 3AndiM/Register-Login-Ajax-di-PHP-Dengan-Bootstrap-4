@@ -13,7 +13,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
     <title>Dashboard</title>
   </head>
@@ -26,7 +26,7 @@
             <ul class="list-group">
               <li class="list-group-item active">MAIN MENU</li>
               <a href="dashboard.php" class="list-group-item" style="color: #212529;">Dashboard</a>
-              <li class="list-group-item">Profile</li>
+              <a href="index.php" class="list-group-item" style="color: #212529;">Data Siswa</a>
               <a href="logout.php" class="list-group-item" style="color: #212529;">Logout</a>
             </ul>
           </div>

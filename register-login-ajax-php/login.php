@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
     <title>Login Akun</title>
   </head>
   <body>
@@ -86,8 +86,8 @@
                   Swal.fire({
                     type: 'success',
                     title: 'Login Berhasil!',
-                    text: 'Anda akan di arahkan dalam 3 Detik',
-                    timer: 3000,
+                    text: 'Anda akan di arahkan dalam 2 Detik',
+                    timer: 2000,
                     showCancelButton: false,
                     showConfirmButton: false
                   })
